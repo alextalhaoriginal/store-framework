@@ -42,7 +42,7 @@
   "sku-selector": {
     "props": {
       "hideImpossibleCombinations": false,
-      "showValueForVariation": "all",
+      "showValueForVariation": "image",
       "showVariationsErrorMessage": true,
       "initialSelection": "empty"
     }
