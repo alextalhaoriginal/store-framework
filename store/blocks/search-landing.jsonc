@@ -1,0 +1,26 @@
+{
+  "store.custom#landing": {
+    "blocks": ["image#landingbanner", "search-result-layout.customQuery"]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "src": "https://via.placeholder.com/1000x200.png?text=Curso%20Vtex%20IO%20%20Store%20Framework",
+      "minWidth ": "100%"
+    }
+  },
+
+  "search-result-layout.customQuery": {
+    "blocks": ["search-result-layout.desktop"],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE"
+      }
+    }
+  }
+}
