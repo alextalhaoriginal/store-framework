@@ -6,7 +6,7 @@
   "image#landingbanner": {
     "props": {
       "src": "https://via.placeholder.com/1000x200.png?text=Curso%20Vtex%20IO%20%20Store%20Framework",
-      "minWidth ": "100%"
+      "minWidth": "100%"
     }
   },
 
